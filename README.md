@@ -4,7 +4,7 @@
 
 ## 과제 요구사항 충족 현황
 
-* **A. HTTP 메소드별 API 구현:** POST, GET, PUT, DELETE 메소드 모두 사용 (총 8개)
+* **A & B. HTTP 메소드별 API 구현:** POST, GET, PUT, DELETE 메소드 모두 사용 (총 8개)
 * **C. 미들웨어 구현:** 요청 시간, 메소드, URL을 기록하는 로깅 미들웨어 구현 완료.
 * **D & E. 응답 포맷 및 코드 다양성:**
     * 모든 응답은 `{"status": "success"/"error", "data": {...}, "message": "..."}`의 표준 포맷을 따름.
@@ -35,7 +35,7 @@ npm install
 npm run dev
 # 서버는 http://localhost:3000 에서 실행됩니다.
 
----
+```
 
 ### 4. 구현된 API 명세
 
